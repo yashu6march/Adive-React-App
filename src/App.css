@@ -7,7 +7,7 @@
   
   .app {
     height: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/city.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/eiffle.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -17,26 +17,30 @@
   }
   
   .card {
-    background: whitesmoke;
-    width: 40%;
-    height: 20%;
+    background: rgb(219, 193, 215);
+    width: 80%;
+    height: 25%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 25px;
+    border-radius: 80px;
     padding: 2%;
-    box-shadow: 10px 10px;
+    border: 5px solid rgba(153, 186, 242, 0.6);
+    
+    
   }
   
   .heading {
-    display: flex;
+    display: inline-block;
     align-items: center;
-    height: 582px;
+    height: 500px;
+    font: Roboto;
+    font-style: italic;
   }
   
   .button {
     position: relative;
-    outline: none;
+    outline: 10px;
     text-decoration: none;
     border-radius: 50px;
     display: flex;
@@ -47,14 +51,14 @@
     height: 200px;
     width: 210px;
     opacity: 1;
-    background-color: #ffffff;
-    border: 1px solid rgba(22, 76, 167, 0.6);
+    background-color: #e1c1eb;
+    border: 3px solid rgba(153, 186, 242, 0.6);
   }
     
   .button span {
-    color: #164ca7;
-    font-size: 12px;
-    font-weight: 500;
+    color: rgba(16, 77, 183, 0.6);
+    font-size: 15px;
+    font-weight: bolder;
     letter-spacing: 0.7px;
   }
     
